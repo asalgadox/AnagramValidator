@@ -1,0 +1,7 @@
+AnagramValidator.py defines a class that determines what anagrams of a parameter word are valid english words *according to words.txt which is identical to the file /usr/share/dict/words found on linux systems. 
+
+General usage:
+
+~$ python AnagramValidator.py <word>
+set([anagrams of <word> that are valid in according to the linux collection of words])
+
