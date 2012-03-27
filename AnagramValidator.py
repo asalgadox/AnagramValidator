@@ -2,16 +2,11 @@
 import re
 import sys
 from collections import defaultdict
-"""
-Class definition for AnagramValidator
-"""
+
 class AnagramValidator(object):
 
   def __init__(self):
-    """
-    Maps <sorted(word), anagrams of word that are valid english>
-    """
-    self.__dict = defaultdict(lambda : set())
+    self.__dict = defaultdict(lambda : set()) # key,value == sorted(word), set(agrams that are valid english words)
     fileHandle = open('words.txt')
     for line in fileHandle:
       m = re.search('[a-z]+',line.lower())	# parse each line for the word
