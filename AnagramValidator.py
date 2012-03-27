@@ -27,4 +27,4 @@ class AnagramValidator(object):
 
 if __name__ == '__main__':
 	v = AnagramValidator()
-	print v.validAnagrams('freesib') if len(sys.argv) < 2 else v.validAnagrams(sys.argv[1])
+	print v.validAnagrams('free') if len(sys.argv) < 2 else v.validAnagrams(sys.argv[1])
