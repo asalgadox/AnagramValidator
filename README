@@ -3,6 +3,6 @@ AnagramValidator.py defines a class that determines what anagrams of a parameter
 General usage:
 
 ~$ python AnagramValidator.py cat
-set(['cat','act']
+set(['cat','act'])
 
 
